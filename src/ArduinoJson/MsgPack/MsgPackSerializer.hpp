@@ -114,7 +114,7 @@ class MsgPackSerializer : public Visitor<size_t> {
       writeInteger(int16_t(value));
     }
 #if ARDUINOJSON_USE_LONG_LONG
-    else if (value >= -0x80000000)
+    else if (value >= -0x80000000LL)
 #else
     else
 #endif

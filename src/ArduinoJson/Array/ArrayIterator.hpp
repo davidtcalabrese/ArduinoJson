@@ -1,6 +1,7 @@
 // ArduinoJson - https://arduinojson.org
 // Copyright Benoit Blanchon 2014-2021
 // MIT License
+// forked and edited 4/8/2021
 
 #pragma once
 
